@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4937E9CB57C6F120B1338A2E /* Pods_MindWear_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362BB7A7BAD2A77CD38E5870 /* Pods_MindWear_WatchKit_Extension.framework */; };
 		5F30EC4525358AA70007A500 /* MindWear WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5F30EC4425358AA70007A500 /* MindWear WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F30EC4B25358AA70007A500 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F30EC4925358AA70007A500 /* Interface.storyboard */; };
 		5F30EC4D25358AAA0007A500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F30EC4C25358AAA0007A500 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 		5F30EC5B25358AAA0007A500 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F30EC5A25358AAA0007A500 /* ExtensionDelegate.swift */; };
 		5F30EC5D25358AAA0007A500 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F30EC5C25358AAA0007A500 /* ComplicationController.swift */; };
 		5F30EC5F25358AAB0007A500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F30EC5E25358AAB0007A500 /* Assets.xcassets */; };
+		A1000F761136ABE3A0D34CB0 /* Pods_MindWear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA455A5F43DE60393BA3BFA4 /* Pods_MindWear.framework */; };
+		AC766B38F3C132EA081E1166 /* Pods_MindWear_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5BDB246DB33B6B6E29C3FF /* Pods_MindWear_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		16EBE78E085B3DC0DF2DABCF /* Pods-MindWear WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindWear WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-MindWear WatchKit Extension/Pods-MindWear WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2A5BDB246DB33B6B6E29C3FF /* Pods_MindWear_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindWear_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362BB7A7BAD2A77CD38E5870 /* Pods_MindWear_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindWear_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F30EC4025358AA70007A500 /* MindWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F30EC4425358AA70007A500 /* MindWear WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindWear WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F30EC4A25358AA70007A500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -71,25 +77,64 @@
 		5F30EC5C25358AAA0007A500 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		5F30EC5E25358AAB0007A500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F30EC6025358AAB0007A500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75386B519BE65FCB6674D018 /* Pods-MindWear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindWear.debug.xcconfig"; path = "Target Support Files/Pods-MindWear/Pods-MindWear.debug.xcconfig"; sourceTree = "<group>"; };
+		99EA692F962A042477E5C6E7 /* Pods-MindWear WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindWear WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-MindWear WatchKit App/Pods-MindWear WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		CA455A5F43DE60393BA3BFA4 /* Pods_MindWear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindWear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4671BB7A1ABC0F74D24D7B0 /* Pods-MindWear WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindWear WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-MindWear WatchKit Extension/Pods-MindWear WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FAFA5064BB393BA74EF1B6 /* Pods-MindWear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindWear.release.xcconfig"; path = "Target Support Files/Pods-MindWear/Pods-MindWear.release.xcconfig"; sourceTree = "<group>"; };
+		FA99FA1DCFE5B8DACC3A9095 /* Pods-MindWear WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindWear WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-MindWear WatchKit App/Pods-MindWear WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1144E9D994CFF5910C8A1AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000F761136ABE3A0D34CB0 /* Pods_MindWear.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F30EC5025358AAA0007A500 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4937E9CB57C6F120B1338A2E /* Pods_MindWear_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F77521CC95028C35E88463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC766B38F3C132EA081E1166 /* Pods_MindWear_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2379498BD7AD4DAF0C7738B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75386B519BE65FCB6674D018 /* Pods-MindWear.debug.xcconfig */,
+				E3FAFA5064BB393BA74EF1B6 /* Pods-MindWear.release.xcconfig */,
+				99EA692F962A042477E5C6E7 /* Pods-MindWear WatchKit App.debug.xcconfig */,
+				FA99FA1DCFE5B8DACC3A9095 /* Pods-MindWear WatchKit App.release.xcconfig */,
+				D4671BB7A1ABC0F74D24D7B0 /* Pods-MindWear WatchKit Extension.debug.xcconfig */,
+				16EBE78E085B3DC0DF2DABCF /* Pods-MindWear WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5F30EC3925358AA70007A500 = {
 			isa = PBXGroup;
 			children = (
 				5F30EC4825358AA70007A500 /* MindWear WatchKit App */,
 				5F30EC5725358AAA0007A500 /* MindWear WatchKit Extension */,
 				5F30EC4125358AA70007A500 /* Products */,
+				2379498BD7AD4DAF0C7738B2 /* Pods */,
+				DAF0B4548FEFBD8EF9C27CA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +170,16 @@
 			path = "MindWear WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		DAF0B4548FEFBD8EF9C27CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA455A5F43DE60393BA3BFA4 /* Pods_MindWear.framework */,
+				2A5BDB246DB33B6B6E29C3FF /* Pods_MindWear_WatchKit_App.framework */,
+				362BB7A7BAD2A77CD38E5870 /* Pods_MindWear_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,8 +187,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F30EC6B25358AAB0007A500 /* Build configuration list for PBXNativeTarget "MindWear" */;
 			buildPhases = (
+				2ED8F3589469F8D602BF9FEA /* [CP] Check Pods Manifest.lock */,
 				5F30EC3E25358AA70007A500 /* Resources */,
 				5F30EC6A25358AAB0007A500 /* Embed Watch Content */,
+				1144E9D994CFF5910C8A1AD7 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,8 +206,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F30EC6725358AAB0007A500 /* Build configuration list for PBXNativeTarget "MindWear WatchKit App" */;
 			buildPhases = (
+				CB090CF7E7AFFB0A1F6FDD34 /* [CP] Check Pods Manifest.lock */,
 				5F30EC4225358AA70007A500 /* Resources */,
 				5F30EC6625358AAB0007A500 /* Embed App Extensions */,
+				79F77521CC95028C35E88463 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F30EC6325358AAB0007A500 /* Build configuration list for PBXNativeTarget "MindWear WatchKit Extension" */;
 			buildPhases = (
+				3052AED0B72E525273FBFEC9 /* [CP] Check Pods Manifest.lock */,
 				5F30EC4F25358AAA0007A500 /* Sources */,
 				5F30EC5025358AAA0007A500 /* Frameworks */,
 				5F30EC5125358AAA0007A500 /* Resources */,
+				3CC45E88D22DF85B323EE5EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +306,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED8F3589469F8D602BF9FEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindWear-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3052AED0B72E525273FBFEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindWear WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC45E88D22DF85B323EE5EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindWear WatchKit Extension/Pods-MindWear WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindWear WatchKit Extension/Pods-MindWear WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindWear WatchKit Extension/Pods-MindWear WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB090CF7E7AFFB0A1F6FDD34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindWear WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F30EC4F25358AAA0007A500 /* Sources */ = {
@@ -400,6 +547,7 @@
 		};
 		5F30EC6425358AAB0007A500 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4671BB7A1ABC0F74D24D7B0 /* Pods-MindWear WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +570,7 @@
 		};
 		5F30EC6525358AAB0007A500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16EBE78E085B3DC0DF2DABCF /* Pods-MindWear WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,6 +593,7 @@
 		};
 		5F30EC6825358AAB0007A500 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EA692F962A042477E5C6E7 /* Pods-MindWear WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,6 +614,7 @@
 		};
 		5F30EC6925358AAB0007A500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA99FA1DCFE5B8DACC3A9095 /* Pods-MindWear WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -484,6 +635,7 @@
 		};
 		5F30EC6C25358AAB0007A500 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75386B519BE65FCB6674D018 /* Pods-MindWear.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -497,6 +649,7 @@
 		};
 		5F30EC6D25358AAB0007A500 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FAFA5064BB393BA74EF1B6 /* Pods-MindWear.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

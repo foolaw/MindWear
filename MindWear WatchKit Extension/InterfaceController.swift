@@ -7,6 +7,7 @@
 
 import WatchKit
 import Foundation
+import Alamofire
 
 
 class InterfaceController: WKInterfaceController {
