@@ -32,14 +32,18 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
         self.locationManger.requestWhenInUseAuthorization()
         self.locationManger.startUpdatingLocation()
         
-        if locationManger.location?.coordinate != nil {
+        if locationManger.location?.coordinate.longitude != nil {
             
             longitude = (locationManger.location?.coordinate.longitude)!
-            latitude = (locationManger.location?.coordinate.latitude)!
+            
         }
         
-        print("longitude: " + String(longitude))
-        print("latitude: " + String(latitude))
+        if locationManger.location?.coordinate.latitude != nil {
+            
+            latitude = (locationManger.location?.coordinate.latitude)!
+
+        }
+        
         
     }
     
@@ -56,5 +60,20 @@ class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
         longitudeTextField.setText(String(longitude))
         latitudeTextField.setText(String(latitude))
         
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
+        let location = locations[locations.count - 1]
+        if location.horizontalAccuracy > 0 {
+
+        print("longitude = \(location.coordinate.longitude)\nlatitude = \(location.coordinate.latitude)")
+
+            let cLatitude = location.coordinate.latitude
+            latitude = cLatitude
+            let cLongitude = location.coordinate.longitude
+            longitude = cLongitude
+
+
+        }
     }
 }
