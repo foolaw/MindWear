@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Wir benötigen Ihre Geodaten.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Wir benötigen Ihre Geodaten.</string>
 	<key>CFBundleDisplayName</key>
 	<string>MindWear WatchKit Extension</string>
 	<key>CFBundleExecutable</key>
